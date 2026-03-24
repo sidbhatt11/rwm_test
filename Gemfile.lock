@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.3.1)
+    ruby_workspace_manager (0.6.3)
+      tsort
+    tsort (0.2.0)
+
+PLATFORMS
+  ruby
+  x86_64-darwin-21
+
+DEPENDENCIES
+  rake
+  ruby_workspace_manager
+
+CHECKSUMS
+  rake (13.3.1) sha256=8c9e89d09f66a26a01264e7e3480ec0607f0c497a861ef16063604b1b08eb19c
+  ruby_workspace_manager (0.6.3) sha256=a5d32665fc231c4e444b39408098799a04a51fe0e3499228230a8df385b111e5
+  tsort (0.2.0) sha256=9650a793f6859a43b6641671278f79cfead60ac714148aabe4e3f0060480089f
+
+BUNDLED WITH
+  4.0.6

@@ -1,0 +1,38 @@
+Started POST "/charges" for 127.0.0.1 at 2026-03-24 21:37:24 +1100
+Processing by ChargesController#create as HTML
+  Parameters: {"email" => "[FILTERED]", "amount_cents" => "2500"}
+Completed 201 Created in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+Started POST "/charges" for 127.0.0.1 at 2026-03-24 21:37:24 +1100
+Processing by ChargesController#create as HTML
+  Parameters: {"email" => "[FILTERED]", "amount_cents" => "100"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+Started GET "/health" for 127.0.0.1 at 2026-03-24 21:37:25 +1100
+Processing by HealthController#show as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+Started POST "/sessions" for 127.0.0.1 at 2026-03-24 21:37:25 +1100
+Processing by SessionsController#create as HTML
+  Parameters: {"email" => "[FILTERED]", "password" => "[FILTERED]"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+Started POST "/sessions" for 127.0.0.1 at 2026-03-24 21:37:25 +1100
+Processing by SessionsController#create as HTML
+  Parameters: {"email" => "[FILTERED]", "password" => "[FILTERED]"}
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+Started POST "/charges" for 127.0.0.1 at 2026-03-24 21:37:27 +1100
+Processing by ChargesController#create as HTML
+  Parameters: {"email" => "[FILTERED]", "amount_cents" => "2500"}
+Completed 201 Created in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.1ms)
+Started POST "/charges" for 127.0.0.1 at 2026-03-24 21:37:27 +1100
+Processing by ChargesController#create as HTML
+  Parameters: {"email" => "[FILTERED]", "amount_cents" => "100"}
+Completed 404 Not Found in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+Started GET "/health" for 127.0.0.1 at 2026-03-24 21:37:27 +1100
+Processing by HealthController#show as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+Started POST "/sessions" for 127.0.0.1 at 2026-03-24 21:37:27 +1100
+Processing by SessionsController#create as HTML
+  Parameters: {"email" => "[FILTERED]", "password" => "[FILTERED]"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+Started POST "/sessions" for 127.0.0.1 at 2026-03-24 21:37:27 +1100
+Processing by SessionsController#create as HTML
+  Parameters: {"email" => "[FILTERED]", "password" => "[FILTERED]"}
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)

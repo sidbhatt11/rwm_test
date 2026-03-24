@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+require_relative "config/application"
+
+Rails.application.load_tasks
+
+require "rwm/rake"
+
+cacheable_task :spec do
+  sh "bundle exec rspec"
+end
+
+task default: :spec

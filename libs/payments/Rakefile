@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+require "rwm/rake"
+
+cacheable_task :spec do
+  sh "bundle exec rspec"
+end
+
+task :bootstrap do
+  puts "Add bootstrap steps for payments here."
+end
+
+task default: :spec
