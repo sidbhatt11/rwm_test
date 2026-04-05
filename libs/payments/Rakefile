@@ -10,4 +10,8 @@ task :bootstrap do
   puts "Add bootstrap steps for payments here."
 end
 
+task :do_thing do
+  puts "doing the thing in libs/payments"
+end
+
 task default: :spec

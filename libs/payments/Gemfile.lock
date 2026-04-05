@@ -4,7 +4,7 @@ PATH
     payments (0.1.0)
 
 PATH
-  remote: /Users/siddharthbhatt/Projects/rwm-test/libs/auth
+  remote: /Users/siddharthbhatt/Projects/rwm_test/libs/auth
   specs:
     auth (0.1.0)
       base64

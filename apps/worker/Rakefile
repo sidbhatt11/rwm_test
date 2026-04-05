@@ -10,4 +10,8 @@ cacheable_task :spec do
   sh "bundle exec rspec"
 end
 
+task :do_thing do
+  puts "doing the thing in apps/worker"
+end
+
 task default: :spec
